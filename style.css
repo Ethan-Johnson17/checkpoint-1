@@ -60,3 +60,8 @@ header {
 }
 }
 
+.anim:hover {
+    background-color: rgb(113, 147, 158);
+    rotate:translateZ(45deg);
+}
+
