@@ -51,6 +51,12 @@ header {
     z-index: 1000;
 }
 
+.anim:hover {
+    background-color: rgb(113, 147, 158);
+    rotate:translateZ(45deg);
+}
+
+
 @media only all and (max-width:768px){
     .medque {
     display: none;
@@ -60,8 +66,4 @@ header {
 }
 }
 
-.anim:hover {
-    background-color: rgb(113, 147, 158);
-    rotate:translateZ(45deg);
-}
 
